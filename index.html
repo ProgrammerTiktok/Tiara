@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Tiara</title>
+  </head>
+  <body>
+   
+    <div class="container">
+      <div class="box-img">
+        <img src="pandahiya.gif" alt="pandahiya" id="myImage" />
+      </div>
+      <div class="box-text">
+        <h2 class="text">"Hai.. Tiara...!"</h2>
+      </div>
+      <div class="box-btn">
+        <i onclick="btnPlay()"><ion-icon name="caret-forward-circle-outline"></ion-icon></i>
+      </div>
+
+      <div class="form-group">
+        <label for="comment">Pesan buat aku</label>
+        <textarea id="comment" name="comment" placeholder="Masukkan pesan buat aku"></textarea>
+        <button type="submit" onclick="kirim()">Kirim</button>
+    </div>
+    </div>
+
+    <div class="title-copyright">
+      <h2>Qieee</h2>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
